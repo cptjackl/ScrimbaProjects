@@ -1,0 +1,1 @@
+A collection of tutorials and projects I've completed from the training site Scrimba as a way to extennd my learning after graduating college for Web development
