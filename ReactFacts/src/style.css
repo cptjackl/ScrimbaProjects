@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #282D35;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    background: #21222A;
+    height: 91px;
+}
+
+.header-logo{
+    width: 29px;
+    margin-left: 10px;
+}
+
+.header-title{
+    color: #61DAFB;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22.25px;
+    letter-spacing: -5%;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.nav-list-item{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.main-title{
+
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
