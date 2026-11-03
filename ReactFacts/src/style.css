@@ -40,10 +40,37 @@ body {
     font-size: 1.5em;
 }
 
-.main-title{
+main{
+    margin-left: 27px;
+    background-image: url("/src/assets/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    background-size: 19%;
+}
 
+.main-title{
     font-family: "Inter", sans-serif;
     font-weight: 700;
     margin-left: 10px;
     margin-bottom: 0px;
+    margin-top: 50px;
 }
+
+.main-list{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main-list-item{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+
+.main-list-item::marker{
+    color: #61DAFB;
+    font-size: 20px;
+}
+

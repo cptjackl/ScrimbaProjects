@@ -1,3 +1,7 @@
+First small project created in react, was my introduction to both React and JSX and built on my Javascript skills developed in my classes. Really liking the system so far it is reminded me of my time using Blazor with C# on Razor pages and using Blade with Laravel in PHP.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
