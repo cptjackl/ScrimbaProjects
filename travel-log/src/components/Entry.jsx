@@ -5,8 +5,8 @@ export default function Entry(props){
         <div className="entry">
             <img 
                 className="entry-pic" 
-                src={props.imageLink.src} 
-                alt={props.imageLink.alt} 
+                src={props.img.src} 
+                alt={props.img.alt} 
             />
             <div className="entry-info">
                 <div>

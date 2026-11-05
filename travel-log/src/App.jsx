@@ -7,17 +7,11 @@ export default function App() {
   const entries = data.map(function(entry){
     return (
       <Entry 
-          country = {entry.country} 
-          imageLink = {entry.img}
-          mapLink = {entry.googleMapsLink}
-          location = {entry.title}
-          dates = {entry.dates}
-          description = {entry.text}
+          key = {entry.id}
+          {...entry}
       />
     )
   })
-  
-  console.log(entries)
 
   return (
     <>
