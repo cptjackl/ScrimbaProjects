@@ -1,4 +1,5 @@
 body{
+  font-family: Inter;
   background: #FAFAF8;
   margin: 0px;
 }
@@ -59,4 +60,39 @@ main{
 .add-ingredient-form > button::before{
   content: '+';
   margin-right: 5px;
+}
+
+.get-recipe-container{
+  font-family: Inter;
+  background-color: #F0EFEB;
+  border-radius: 8px;
+  padding: 28px 0px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.get-recipe-container h3{
+  margin: 0px 0px 8px 0px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.get-recipe-container p{
+  margin: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.get-recipe-container button{
+  width: 115px;
+  color: #FAFAF8;
+  background-color: #D17557;
+  padding: 9px 17px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px #0000000D;
+  border-style: hidden;
 }
